@@ -1,0 +1,41 @@
+name: petstore
+description: A demo Flutter project for JOB CANDIDATURE - Mohamed Sedki YOUZBECHI.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.0.9
+  http: ^0.13.4
+  another_flushbar: ^1.10.29
+  provider: ^6.0.3
+  shared_preferences:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.5
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/pet_splash.png
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/pet_splash.png
+
