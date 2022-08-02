@@ -29,7 +29,3 @@ A few resources :
     2) delete
     3) update
 
-## Cordially
-## Mohamed Sedki YOUZBECHI
-
-
